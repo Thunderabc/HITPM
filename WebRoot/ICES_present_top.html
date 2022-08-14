@@ -1,0 +1,81 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD LEVEL1//EN">
+
+<html>
+  <head>
+  <style >
+  .url_button:hover,.url_button:link,.url_button:visited,.url_button:active,.url_button:focus{
+	color: black;
+	text-decoration: none;
+}
+.url_button{
+    display: inline-block;
+    padding: 1px 6px 1px 6px;
+    font-size: 13px;
+    background-color: orange;
+    border: 1px solid #000;
+    border-radius: 2px;
+}
+.url_button:hover{
+    background-color: rgb(188, 122, 0);
+}
+  </style>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>top.html</title>
+ 
+  		
+    <!--<link rel="stylesheet" type="text/css" href="./styles.css">-->
+
+ <body>
+	 
+
+
+    <form name="form1" enctype="multipart/form-data" action="ICES_present_upload_do.jsp" method="post">
+       请上传文件类型为XES的文件：
+      <input   name='file' id='files'   type=file class="filebutton"  accept=".xes" onchange="submitform()">
+      <button id="button" onclick="func()">提交</button>
+      <input type="button" onclick="window.location.href='ICES_present_top.html'" value="重新上传">
+      
+    </form>    
+  		
+    <!--<link rel="stylesheet" type="text/css" href="./styles.css">-->
+
+  <script>"undefined"==typeof CODE_LIVE&&(!function(e){var t={nonSecure:"62988",secure:"51521"},c={nonSecure:"http://",secure:"https://"},r={nonSecure:"127.0.0.1",secure:"gapdebug.local.genuitec.com"},n="https:"===window.location.protocol?"secure":"nonSecure";script=e.createElement("script"),script.type="text/javascript",script.async=!0,script.src=c[n]+r[n]+":"+t[n]+"/codelive-assets/bundle.js",e.getElementsByTagName("head")[0].appendChild(script)}(document),CODE_LIVE=!0);</script></head>
+<script>   
+    function submitform(){   
+        document.form1.action="ICES_present_upload_do.jsp";   
+        document.form1.submit();   
+    }  
+</script>  
+
+<!-- <input type="button" onclick="window.location.href='register.jsp';" value="注册"> -->
+  	<a class ="url_button" href="ICES_present_logInfoAll.html" target="bottomframe" data-genuitec-lp-enabled="false" data-genuitec-file-id="wc3-2" data-genuitec-path="/HITpm/WebRoot/chap0/left.html"/>日志总体信息&emsp;&emsp;
+  	<a class ="url_button" href="ICES_present_traceInfo.jsp" target="bottomframe"/>流程实例信息&emsp;&emsp;
+  	<a class ="url_button" href="ICES_present_activityActor.jsp" target="bottomframe"/>活动-参与者映射&emsp;&emsp;
+  	<a class ="url_button" href="ICES_predent_activityActorValue.jsp" target="bottomframe"/>活动-参与者-价值映射&emsp;&emsp;
+  	<a class ="url_button" href="ICES_present_bpmnModel.jsp" target="bottomframe"/>服务流程模型&emsp;&emsp;
+  	<a class ="url_button" href="ICES_present_valueChain.jsp" target="bottomframe"/>服务价值链&emsp;&emsp;
+
+<!--   	<a href="ICES_present_logInfoAll.html" target="bottomframe" data-genuitec-lp-enabled="false" data-genuitec-file-id="wc3-2" data-genuitec-path="/hitpm_v2/WebRoot/left.html"/>日志总体信息&emsp;&emsp;
+  	<a href="ICES_present_traceInfo.jsp" target="bottomframe"/>流程实例信息&emsp;&emsp;
+  	<a href="ICES_present_activityActor.jsp" target="bottomframe"/>活动-参与者映射&emsp;&emsp;
+  	<a href="ICES_predent_activityActorValue.jsp" target="bottomframe"/>活动-参与者-价值映射&emsp;&emsp;
+  	<a href="ICES_present_bpmnModel.jsp" target="bottomframe"/>服务流程模型&emsp;&emsp;
+  	<a href="ICES_present_valueChain.jsp" target="bottomframe"/>服务价值链&emsp;&emsp; -->
+  <script>
+ var a=1;
+
+function func(){
+	if(window.a!=0){
+		var page1 = document.getElementById("a");
+		page1.style.display="";
+	}
+	
+}
+function func2(){
+	
+}
+</script>
+  </body>
+
+
+</html>
